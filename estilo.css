@@ -1,0 +1,11 @@
+body{
+
+    background-size: 100%;
+    font-family: sans-serif;
+
+}
+header{
+    width: 100%;
+    background: black;
+    margin: auto;
+}
