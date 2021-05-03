@@ -6,6 +6,7 @@ body{
 }
 header{
     width: 100%;
-    background: black;
+    background: green;
     margin: auto;
+    display: flex;
 }
