@@ -463,3 +463,7 @@ footer{
     height: 1px;
     background-color: forestgreen;
 }
+h1{
+   border: none; 
+    margin: 20px;
+}
