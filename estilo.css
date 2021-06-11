@@ -46,11 +46,6 @@ body{
     transition: all .3s;
 }
 
-.menu li:hover .subgeneros{
-    visibility: visible;
-    opacity: 1;
-}
-
 .submenu{
     position: absolute;
     background: rgba(0, 128, 0, 0.281);
@@ -85,7 +80,6 @@ body{
     text-align: center;
     width: 150px;
     text-decoration: none;
-    box-shadow: #7a7a7a;
     border-radius: 20px;
 }
 
@@ -214,23 +208,23 @@ main {
 
 /* PIE DE PÁGINA*/
 
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
-}
+} */
 
-:root{
-    --color-esqueleto: none;
-}
+/* :root{
+    --color-esqueleto: white;
+} */
 
-header{
+/* header{
     width: 100%;
     height: 50px;
-    background: var(--color-esqueleto);
-}
+    background: var(--color-esqueleto); 
+} */
 
 .line__parrafos{
     max-width: 1200px;
@@ -469,5 +463,29 @@ footer{
     background-color: forestgreen;
 }
 
+<<<<<<< HEAD
 /* CSS DE YAMELI */
 
+=======
+/* NOTICIAS */
+
+.post-list{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+/* CSS DE YAMELI
+h1{
+    margin: auto
+
+} */
+>>>>>>> dd51de404f0c296a4fed0b17b2e23b70c0d1b25b
