@@ -259,27 +259,28 @@ main {
 }
 
 .container__article .box__perfil01{
+    background: url(img/badbunny.music.jpg);
     width: 200px;
     height: 250px;
-    background-image: url(../aorusmusic.github.io/img/badbunny.music.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-.container__article .box__perfil02{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/drake.music.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     margin: 20px;
     border-radius: 20px;
 }
 
-.container__article .box__perfil03{
+.container__article .box__perfil02{
+    background: url(img/drake.music.jpg);
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+/*.container__article .box__perfil03{
     width: 200px;
     height: 250px;
     background-image: url(../aorusmusic.github.io/img/jbalvin.music.jpg);
@@ -386,8 +387,8 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     margin: 20px;
-    border-radius: 20px;
-}
+    border-radius: 20px; */
+/* } */
 
 /* FOOTER PIE DE PAGINA*/
 
