@@ -26,7 +26,9 @@ function register(){
 
 // NOTICIAS
 document.addEventListener("DOMContentLoaded", function(e){
-    document.querySelectorAll('.desarrollo');
+    
+    const parrafos = document.querySelectorAll('.desarrollo');
+    
     let alturas = [];
     let alturaMaxima = 0;
 
@@ -34,16 +36,18 @@ document.addEventListener("DOMContentLoaded", function(e){
 
         parrafos.forEach(parrafo =>{
            
-            if(alturaMaxima = 0){
+            if(alturaMaxima == 0){
                 alturas.push(parrafo.clientHeight);
             }else{
                 parrafo.style.height = alturaMaxima + "px";
             }
+            
         });
+        
         return aplicarAlturas;
     })();
 
     alturaMaxima = Math.max.apply(Math, alturas);
 
     aplicarAlturas();
-});
+})

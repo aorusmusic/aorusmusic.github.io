@@ -629,7 +629,7 @@ audio{
 .post:hover .post-img-2
 .post:hover .post-img-3
 .post:hover .post-img-5{
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .post-body{
