@@ -463,6 +463,30 @@ footer{
     background-color: forestgreen;
 }
 
+
+h1{
+    width:100%;
+    border-width: double;color: cyan;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+audio{
+    border-style: solid ; color: lawngreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+=======
 /* NOTICIAS */
 
 .post-list{
@@ -619,3 +643,4 @@ h1{
     margin: auto
 
 } */
+>>>>>>> dd51de404f0c296a4fed0b17b2e23b70c0d1b25b
