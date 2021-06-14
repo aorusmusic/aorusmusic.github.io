@@ -466,15 +466,17 @@ footer{
 
 h1{
     width:100%;
-    border-width: double;color: cyan;
+    border-width: double;color:greenyellow;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 audio{
-    border-style: solid ; color: lawngreen;
+    border-style: solid ; color: greenyellow;
 }
+
+
 
 
 
