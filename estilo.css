@@ -625,9 +625,9 @@ audio{
 
 .post:hover .post-img-0
 .post:hover .post-img-1
-.post:hover .post-img-4
 .post:hover .post-img-2
 .post:hover .post-img-3
+.post:hover .post-img-4
 .post:hover .post-img-5{
     transform: scale(0.9);
 }

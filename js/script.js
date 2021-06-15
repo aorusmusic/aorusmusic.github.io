@@ -23,31 +23,3 @@ function register(){
     caja_trasera_register.style.opacity = "0";
     caja_trasera_login.style.opacity = "1"
 }
-
-// NOTICIAS
-document.addEventListener("DOMContentLoaded", function(e){
-    
-    const parrafos = document.querySelectorAll('.desarrollo');
-    
-    let alturas = [];
-    let alturaMaxima = 0;
-
-    const aplicarAlturas = (function aplicarAlturas(){
-
-        parrafos.forEach(parrafo =>{
-           
-            if(alturaMaxima == 0){
-                alturas.push(parrafo.clientHeight);
-            }else{
-                parrafo.style.height = alturaMaxima + "px";
-            }
-            
-        });
-        
-        return aplicarAlturas;
-    })();
-
-    alturaMaxima = Math.max.apply(Math, alturas);
-
-    aplicarAlturas();
-})
