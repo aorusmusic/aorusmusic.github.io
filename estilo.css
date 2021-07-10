@@ -206,28 +206,226 @@ main {
     display: none;
 }
 
+/* CONTENIDO INICIO */
+
+.main-img{
+    max-width: 1000px;
+    padding: 0px 20px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-a{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: center;
+    transition: .2s;
+}
+
+.img-a:hover{
+    transform: scale(0.9);
+}
+
+.img-b{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: center;
+    transition: .2s;
+}
+
+.img-b:hover{
+    transform: scale(0.9);
+}
+
+.img-c{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: center;
+    transition: .2s;
+}
+
+.img-c:hover{
+    transform: scale(0.9);
+}
+
+.img-d{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: right;
+    transition: .2s;
+}
+
+.img-d:hover{
+    transform: scale(0.9);
+}
+
+.img-e{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: right;
+    transition: .2s;
+}
+
+.img-e:hover{
+    transform: scale(0.9);
+}
+
+.img-f{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: left;
+    transition: .2s;
+}
+
+.img-f:hover{
+    transform: scale(0.9);
+}
+
+.img-g{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: left;
+    transition: .2s;
+}
+
+.img-g:hover{
+    transform: scale(0.9);
+}
+
+.img-h{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: left;
+    transition: .2s;
+}
+
+.img-h:hover{
+    transform: scale(0.9);
+}
+
+.img-i{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: left;
+    transition: .2s;
+}
+
+.img-i:hover{
+    transform: scale(0.9);
+}
+
+.img-j{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: left;
+    transition: .2s;
+}
+
+.img-j:hover{
+    transform: scale(0.9);
+}
+
+.img-k{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: left;
+    transition: .2s;
+}
+
+.img-k:hover{
+    transform: scale(0.9);
+}
+
+.img-l{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    float: left;
+    transition: .2s;
+}
+
+.img-l:hover{
+    transform: scale(0.9);
+}
+
 /* PIE DE PÁGINA*/
 
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
-    text-decoration: none;
-} */
-
-/* :root{
-    --color-esqueleto: white;
-} */
-
-/* header{
-    width: 100%;
-    height: 50px;
-    background: var(--color-esqueleto); 
-} */
-
 .line__parrafos{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     text-align: center;
     padding: 0px;
@@ -242,151 +440,9 @@ main {
     font-size: 30px;
     text-align: center;
 }
-/* .cover{
-    width: 100%;
-    background: var(--color-esqueleto);
-    margin-top: 20px;
-} */
 
-.container__article{
-    max-width: 1000px;
-    padding: 0px 20px;
-    margin: auto;
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.container__article .box__perfil01{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/badbunny.music.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-.container__article .box__perfil02{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/drake.music.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.container__article .box__perfil03{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/jbalvin.music.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.container__article .box__perfil04{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/juicewrld.music.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.container__article .box__perfil05{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/theweeknd.music.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.container__article .box__perfil06{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/billieeilish.music.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.container__article .box__perfil07{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/arianagrande.music.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.container__article .box__perfil08{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/taylorswift.music.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.container__article .box__perfil09{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/dualipa.music.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.container__article .box__perfil10{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/edsheeran.music.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.container__article .box__perfil11{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/pabloalboran.music.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.container__article .box__perfil12{
-    width: 200px;
-    height: 250px;
-    background-image: url(../aorusmusic.github.io/img/juanluisguerra.music.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 20px;
+.separador{
+    height: 50px;
 }
 
 /* FOOTER PIE DE PAGINA*/
@@ -464,10 +520,24 @@ footer{
 }
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+h1{
+    width:100%;
+    border-width: double;color:greenyellow;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+audio{
+    border-style: solid ; color: greenyellow;
+}
+>>>>>>> b2153aef37ea893c784054187c8250258e9a169d
 
 /* NOTICIAS */
 
@@ -562,11 +632,11 @@ footer{
 
 .post:hover .post-img-0
 .post:hover .post-img-1
-.post:hover .post-img-4
 .post:hover .post-img-2
 .post:hover .post-img-3
+.post:hover .post-img-4
 .post:hover .post-img-5{
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .post-body{
