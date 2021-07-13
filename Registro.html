@@ -56,9 +56,7 @@
                 </form>
                 <form action="" class="formulario__register">
                     <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre Completo">
                     <input type="text" placeholder="Correo Electronico">
-                    <input type="text" placeholder="Uusario">
                     <input type="password" placeholder="Contraseña">
                     <button>Registrarse</button>
                 </form>
@@ -197,7 +195,33 @@
     </script>
     
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+<script>
+
+firebase.auth().createUserWithEmailAndPassword(email, password)
+  .then((userCredential) => {
+    // Signed in
+    var user = userCredential.user;
+    // ...
+  })
+  .catch((error) => {
+    var errorCode = error.code;
+    var errorMessage = error.message;
+    // ..
+  });
+
+</script>
+
 <!-- PIE DE PÁGINA -->
+
 <header>
 
 </header>
