@@ -520,6 +520,12 @@ footer{
 }
 
 
+<<<<<<< HEAD
+
+
+
+
+=======
 h1{
     width:100%;
     border-width: double;color:greenyellow;
@@ -531,6 +537,7 @@ h1{
 audio{
     border-style: solid ; color: greenyellow;
 }
+>>>>>>> b2153aef37ea893c784054187c8250258e9a169d
 
 /* NOTICIAS */
 
